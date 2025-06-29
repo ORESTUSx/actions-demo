@@ -34,3 +34,7 @@ jobs:
         with:
           name: hello-output
           path: output.log
+
+      - name: Show secret (for demonstration)
+        run: echo "Secret value is ${{ secrets.MY_SECRET }}"
+
