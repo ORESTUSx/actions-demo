@@ -29,3 +29,8 @@ jobs:
           chmod +x ./hello.sh
           ./hello.sh
 
+      - name: Upload output log
+        uses: actions/upload-artifact@v4
+        with:
+        name: hello-output
+        path: output.log
