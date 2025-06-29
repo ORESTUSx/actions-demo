@@ -32,5 +32,5 @@ jobs:
       - name: Upload output log
         uses: actions/upload-artifact@v4
         with:
-        name: hello-output
-        path: output.log
+          name: hello-output
+          path: output.log
